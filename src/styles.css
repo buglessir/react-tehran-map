@@ -1,0 +1,11 @@
+.react-tehran-map__area{
+  fill: #CCD1D1;
+  cursor: pointer;
+}
+.react-tehran-map__area:hover,
+.react-tehran-map__area--selected {
+  fill: #58D68D;
+}
+.react-tehran-map__code{
+  pointer-events: none;
+}

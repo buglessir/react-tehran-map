@@ -1,0 +1,40 @@
+{
+  "name": "react-tehran-map",
+  "version": "1.0.0",
+  "description": "Tehran's map in SVG format for React JS applications.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buglessir/react-tehran-map.git"
+  },
+  "author": "Mohammad Esmaeilzadeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buglessir/react-tehran-map/issues"
+  },
+  "keywords": [
+    "react",
+    "tehran",
+    "map",
+    "react-tehran-map"
+  ],
+  "homepage": "https://github.com/buglessir/react-tehran-map#readme",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
