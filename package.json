@@ -1,7 +1,7 @@
 {
   "name": "react-tehran-map",
   "author": "Mohammad Esmaeilzadeh",
-  "version": "2.0.0",
+  "version": "2.0.5",
   "description": "Tehran's map in SVG format for React JS applications.",
   "license": "MIT",
   "repository": {
@@ -33,8 +33,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",

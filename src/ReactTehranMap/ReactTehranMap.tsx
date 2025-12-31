@@ -3,7 +3,7 @@ import { IReactTehranMap } from "./types";
 import { TEHRAN_PATHS, TEHRAN_TEXTS } from "./constants/map";
 import { useAreaSelection } from "./hooks/useAreaSelection";
 
-export const ReactTehranMap = ({
+const ReactTehranMap = ({
   width = 800,
   defaultAreas = [],
   fillColor = "#CCD1D1",
@@ -70,3 +70,5 @@ export const ReactTehranMap = ({
     </svg>
   );
 };
+
+export default ReactTehranMap;

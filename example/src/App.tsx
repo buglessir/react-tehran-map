@@ -1,5 +1,5 @@
 // @ts-ignore
-import { ReactTehranMap } from '../../dist/index.esm.js';
+import ReactTehranMap from '../../dist/index.esm.js';
 
 const App = () => {
   return <ReactTehranMap />
