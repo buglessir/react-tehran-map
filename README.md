@@ -1,37 +1,41 @@
-## react-tehran-map
+## 🗺️ react-tehran-map
 
 Tehran's map in SVG format for React JS applications.
 \
 \
+**Note:** This library works with React versions `^18.0.0` and `^19.0.0`
 \
-![react-tehran-map](https://github.com/user-attachments/assets/7dbece18-c2ff-475b-9485-d833272814e7)
+\
+![npm version](https://img.shields.io/npm/v/react-tehran-map)
+![npm downloads](https://img.shields.io/npm/dm/react-tehran-map)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/react-tehran-map)
+\
+\
+\
+![react-tehran-map](https://raw.githubusercontent.com/buglessir/react-tehran-map/main/assets/react-tehran-map.webp)
 
-#### Install
+## Install
+Run the following command to install:
+
 `npm i react-tehran-map`
 
-#### Props
+## Props
 
-`width`: To set the map's width - `width?: number`
+| Prop | Type | Default | Description |
+|------|--------|----------|-------------|
+| **width** | `number` | 800 | Sets the map width. (px) |
+| **defaultAreas** | `number[]` | [] | Pre-selected area IDs. |
+| **fillColor** | `string` | `#CCD1D1` | Background color of areas. |
+| **hoverColor** | `string` | `#C1C1C1` | Background color on hover. |
+| **selectedColor** | `string` | `#58D68D` | Background color for selected areas. |
+| **textColor** | `string` | `#000000` | Text (label) color for areas. |
+| **textFontSize** | `number` | `14` | Font size of area labels. |
+| **textFontFamily** | `string` | `sans-serif` | Font family for area labels. |
+| **onSelect** | `(areas: number[]) => void` | `console.log` | Callback when areas are selected. |
 
-`defaultAreas`: Default selected areas - `defaultAreas?: number[]`
+## Example
 
-`fillColor`: Area background-color (default: `#CCD1D1`) - `fillColor?: string`
-
-`hoverColor`: Area mouse hover background-color (default: `#C1C1C1`) - `hoverColor?: string`
-
-`selectedColor`: Area selected background-color (default: `#58D68D`) - `selectedColor?: string`
-
-`textColor`: Area label text color (default: `#000000`) - `textColor?: string`
-
-`textFontSize`: Area label text font-size (default: `14`) - `textFontSize?: number`
-
-`textFontFamily`: Area label text font-family (default: `sans-serif`) - `textFontFamily?: number`
-
-`onSelect`: On-select area function (default: `console.log`) - `onSelect?: (areas: number[]) => void`
-
-#### Example
-
-```
+```javascript
 import TehranMap from 'react-tehran-map';
 
 const App = () => {
@@ -43,7 +47,7 @@ const App = () => {
 export default App;
 ```
 
-#### Demo
+## Demo
 
 In order to start the demo version, run the following commands:
 
