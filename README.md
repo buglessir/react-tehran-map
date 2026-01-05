@@ -33,6 +33,14 @@ Run the following command to install:
 | **textFontFamily** | `string` | `sans-serif` | Font family for area labels. |
 | **onSelect** | `(areas: number[]) => void` | `console.log` | Callback when areas are selected. |
 
+## CSS classNames
+CSS classes based on the BEM naming convention:
+
+- **SVG:** `react-tehran-map`
+- **Path:** `react-tehran-map__area`
+- **Path-selected:** `react-tehran-map__area--selected`
+- **Area code:** `react-tehran-map__code`
+
 ## Example
 
 ```javascript
